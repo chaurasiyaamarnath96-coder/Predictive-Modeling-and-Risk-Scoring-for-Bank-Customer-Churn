@@ -4,12 +4,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 import joblib
-X_test = pd.read_csv("X_test.csv")
+X_test = pd.read_csv("streamlit_app/X_test.csv")
 # -------------------------------
 # Load Pretrained Models
 # -------------------------------
 # This loads the dictionary of all fitted pipelines
-models = joblib.load("all_models12.pkl")
+models = joblib.load("streamlit_app/all_models12.pkl")
 
 # -------------------------------
 # Sidebar Inputs
